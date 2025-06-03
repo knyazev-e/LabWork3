@@ -16,3 +16,5 @@ jobs:
       run: chmod +x ./tests
     - name: run test
       run: ./tests
+    - name: clean
+      run: make clean
